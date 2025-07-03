@@ -1,4 +1,5 @@
 // Conditional rendering using logical operator
+// importing icons from react-icons
 
 import React from 'react'
 import { CiUser } from "react-icons/ci";
