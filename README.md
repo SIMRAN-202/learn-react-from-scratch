@@ -18,6 +18,18 @@ Each file contains simple, focused examples to reinforce the concepts.
 
 ---
 
+### `02-State_and_hooks/`
+This folder focuses on:
+
+-  **State Management with `useState`** – learning how to declare, update, and use state in functional components.
+-  **Controlled Inputs** – binding input values to state and handling user input changes.
+-  **useEffect Hook** – syncing React state with `localStorage`, and running effects conditionally on state changes.
+-  **Mini Projects** – like a simple name input app that remembers user input even after a page refresh!
+
+These examples helped me understand how React handles data internally and reactively updates the UI.
+
+---
+
 ## 💡 Why This Repo?
 
 - To track my daily progress and learning.
