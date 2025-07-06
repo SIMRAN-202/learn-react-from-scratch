@@ -30,6 +30,16 @@ These examples helped me understand how React handles data internally and reacti
 
 ---
 
+### `03-portal_and_key/`
+This folder includes:
+
+- **React Portals** – rendering child components outside the main DOM hierarchy while preserving React's event system. Used in scenarios like modals and tooltips.
+- **Keys in Lists** – learning why keys are essential for list rendering performance and how to use them effectively to prevent unwanted re-renders.
+
+These concepts are critical for building scalable and efficient UIs.
+
+---
+
 ## 💡 Why This Repo?
 
 - To track my daily progress and learning.
