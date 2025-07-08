@@ -3,6 +3,9 @@ import React from 'react'
 // import Movies2 from './components/Movies2'
 import { useState } from 'react'
 import ToDoList from './components/exercises/ToDoList'
+import BasicEffect from './components/BasicEffect'
+import CounterEffect from './components/exercises/CounterEffect'
+import FetchDataEffect from './components/exercises/FetchDataEffect'
 // import ComponentOne from './components/ComponentOne'
 // import ComponentTwo from './components/ComponentTwo'
 // import Example from './components/Example'
@@ -25,7 +28,11 @@ const App = () => {
         <ExampleTwo />
         <ExampleThree /> */}
 
-        <ToDoList />
+        {/* <ToDoList /> */}
+
+        {/* <BasicEffect /> */}
+        {/* <CounterEffect /> */}
+        <FetchDataEffect />
     </div>
   )
 }
