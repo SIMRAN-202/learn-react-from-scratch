@@ -23,7 +23,7 @@ This folder focuses on:
 
 -  **State Management with `useState`** – learning how to declare, update, and use state in functional components.
 -  **Controlled Inputs** – binding input values to state and handling user input changes.
--  **useEffect Hook** – syncing React state with `localStorage`, and running effects conditionally on state changes.
+-  **useEffect Hook** – Use `useEffect` with an empty dependency array (`[]`) to perform actions like fetching API data only once when the component loads.
 -  **Mini Projects** – like a simple name input app that remembers user input even after a page refresh!
 
 These examples helped me understand how React handles data internally and reactively updates the UI.
