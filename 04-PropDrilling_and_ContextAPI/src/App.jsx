@@ -3,7 +3,10 @@
 // useContext hook allows us to access the context values provided by a context object directly within a component. Context provides a way to pass data through the component tree without having to pass props down manually at every level.
 
 import React, { createContext } from 'react'
-import ComponentA from './components/ComponentA';
+// import ComponentA from './components/ComponentA';
+import UserProfile from './components/UserProfile';
+import { UserProvider } from './context/UserContext';
+import UpdateUser from './components/UpdateUser';
 
  export const Data = createContext()
  export const Data1 = createContext()
@@ -14,11 +17,18 @@ const App = () => {
 
   return (
     <div>
-      <Data.Provider value={name}>
+      {/* <Data.Provider value={name}>
         <Data1.Provider value={age}>
           <ComponentA />
         </Data1.Provider>
-      </Data.Provider>
+      </Data.Provider> */}
+
+      <UserProvider>
+        <UserProfile/>
+        <UpdateUser />
+      </UserProvider>
+
+      
       
     </div>
   )
