@@ -38,6 +38,18 @@ This folder includes:
 
 These concepts are critical for building scalable and efficient UIs.
 
+
+---
+
+### `04-PropDrilling_and_ContextAPI/`
+This folder covers:
+
+- **Prop Drilling** – understanding the limitations of passing props through multiple component layers and how it can make the code harder to manage.
+- **Context API** – using `createContext` and `useContext` to share state globally without prop drilling.
+- **Global State Management** – creating a `UserContext` with `useState` and sharing both data and update functions across components.
+
+This was a major step forward in understanding how to manage shared state in larger React applications more effectively.
+
 ---
 
 ## 💡 Why This Repo?
