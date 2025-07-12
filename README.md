@@ -52,6 +52,14 @@ This was a major step forward in understanding how to manage shared state in lar
 
 ---
 
+### `05-useReducer/`
+This folder cover:
+
+- **useReducer Hook** – using `useReducer` to manage complex state changes and side effects
+- **Action Types and Reducers** – defining action types and reducers to handle state updates in
+a predictable way
+
+
 ## 💡 Why This Repo?
 
 - To track my daily progress and learning.
