@@ -59,6 +59,36 @@ This folder cover:
 - **Action Types and Reducers** – defining action types and reducers to handle state updates in
 a predictable way
 
+---
+
+### `06-CustomHooks/`
+This folder includes:
+
+- **Creating Reusable Hooks** – Learned to extract repeated logic from components into custom hooks for better code organization.
+- **useFetch Hook** – Abstracted data-fetching logic using `useEffect` and `useState`, returning loading, error, and data states for flexible API consumption.
+
+Making custom hooks made my components cleaner and taught me how to write logic that's portable and scalable across projects.
+
+---
+
+### `07-projects/`
+This folder contains mini projects built using the concepts learned:
+
+#### 📌 `01-counter/`
+- A simple counter app using `useState`
+- Includes buttons to increase and decrease count
+- Great for understanding how React state updates work in real-time
+
+#### 📌 `02-todo-basic/`
+- A basic todo list without localStorage
+- Add and remove tasks
+- Reinforces array state manipulation and rendering lists using `.map()`
+
+#### 📌 `03-meals-api/`
+- Fetches and displays meals from an external API using `useEffect`
+- Showcases use of API calls, loading data on component mount, and dynamic list rendering with images
+
+---
 
 ## 💡 Why This Repo?
 

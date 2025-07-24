@@ -1,6 +1,7 @@
 import React from 'react'
 import Counter from './components/Counter'
 import Todo from './components/Todo'
+import Meals from './components/Meals'
 
 const App = () => {
   return (
@@ -14,6 +15,10 @@ const App = () => {
       <h1 className="text-3xl font-bold text-center my-8">ToDo Project</h1>
 
       <Todo />
+
+      <h1 className="text-3xl font-bold text-center my-8">Meals API Fetch Project</h1>
+
+      <Meals />
     </div>
   )
 }
