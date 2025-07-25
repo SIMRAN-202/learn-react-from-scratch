@@ -4,6 +4,7 @@ import Todo from './components/Todo'
 import Meals from './components/Meals'
 import Calculator from './components/Calculator'
 import ToggleBgColor from './components/ToggleBgColor'
+import HiddenSearchbar from './components/HiddenSearchbar'
 
 const App = () => {
   return (
@@ -27,6 +28,9 @@ const App = () => {
 
       <ToggleBgColor />
 
+      <h1 className="text-3xl font-bold text-center my-8">Hidden Search bar</h1>
+
+      <HiddenSearchbar />
 
     </div>
   )
