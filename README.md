@@ -88,6 +88,16 @@ This folder contains mini projects built using the concepts learned:
 - Fetches and displays meals from an external API using `useEffect`
 - Showcases use of API calls, loading data on component mount, and dynamic list rendering with images
 
+#### 📌 `04-Calculator/`
+- A modern calculator built with `useState`
+- Supports basic arithmetic operations (+, -, ×, ÷)
+- Great for practicing input handling, dynamic UI updates, and evaluating expressions
+
+#### 📌 `04-ToggleBgColor/`
+- A simple background color toggle component using `useState`
+- Switches between light and dark modes (background, text, and button color)
+- Great for understanding state toggling, inline styling, and event handling in React
+
 ---
 
 ## 💡 Why This Repo?
