@@ -5,10 +5,15 @@ import Meals from './components/Meals'
 import Calculator from './components/Calculator'
 import ToggleBgColor from './components/ToggleBgColor'
 import HiddenSearchbar from './components/HiddenSearchbar'
+import Testimonials from './components/Testimonials'
+import Accordian from './components/Accordian'
+import Form from './components/Form'
+
+
 
 const App = () => {
   return (
-    <div>
+    <>
       <h1 className="text-3xl font-bold text-center my-8">Counter Project</h1>
       <Counter />      
 
@@ -32,7 +37,20 @@ const App = () => {
 
       <HiddenSearchbar />
 
-    </div>
+      <h1 className="text-3xl font-bold text-center my-8">Testimonials</h1>
+
+      <Testimonials />
+
+      <h1 className="text-3xl font-bold text-center my-8">Accordian Project</h1>
+
+      <Accordian />
+
+      <h1 className="text-3xl font-bold text-center my-8">Form Validation</h1>
+
+      <Form/>
+
+
+    </>
   )
 }
 

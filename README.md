@@ -93,11 +93,30 @@ This folder contains mini projects built using the concepts learned:
 - Supports basic arithmetic operations (+, -, ×, ÷)
 - Great for practicing input handling, dynamic UI updates, and evaluating expressions
 
-#### 📌 `04-ToggleBgColor/`
+#### 📌 `05-ToggleBgColor/`
 - A simple background color toggle component using `useState`
 - Switches between light and dark modes (background, text, and button color)
 - Great for understanding state toggling, inline styling, and event handling in React
 
+#### 📌 `06-Accordion/`
+- A clean accordion component built with `useState`
+- Allows toggling of content visibility
+- Useful for mastering conditional rendering 
+
+#### 📌 `07-FormValidation/`
+- A form with input validation using `useState`
+- Displays error messages for invalid inputs (like empty fields)
+- Perfect for practicing form state management and validation logic
+
+#### 📌 `08-Testimonials/`
+- Displays customer quotes and authors
+- Includes Prev and Next buttons to cycle through testimonials
+- Great for practicing state updates, conditional rendering, and UI animations
+
+#### 📌 `09-HiddenSearchBar/`
+- A hidden search bar component that expands on click
+- Demonstrates dynamic class toggling, animation using Tailwind, and conditional rendering
+- Good for practicing minimalist UI behavior with interactive elements
 ---
 
 ## 💡 Why This Repo?
